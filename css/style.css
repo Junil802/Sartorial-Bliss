@@ -2191,6 +2191,101 @@ h2 {
     width: 100%;
     height: 450px;
 }
+/**********************************/
+/********** About CSS ***********/
+/**********************************/
+.about {
+    position: relative;
+    padding-top: 30px;
+}
+
+.about .about-info,
+.about .about-form,
+.about .about-map {
+    border: 1px solid #FFA500; 
+    height: 100%;
+    padding: 30px;
+    background: black
+ 
+}
+
+.about .about-info h2 {
+    margin-bottom: 15px;
+    color: yellow;
+    border: 1px solid #FFA500; 
+   
+}
+.about .about-info h2 span {
+    margin-bottom: 15px;
+    color: orange;
+}
+
+.about .about-info h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.about .about-info h3 i {
+    width: 20px;
+    color: #FFA500; /* Orange */
+    margin-right: 5px;
+}
+.about .about-info p {
+    margin-bottom: 15px;
+    color: white;
+    
+   
+}
+
+.about .social {
+    position: relative;
+    width: 100%;
+}
+
+.about .social a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #FFA500; /* Orange */
+    border-radius: 4px;
+}
+
+.about .social a i {
+    color: #FFA500; /* Orange */
+}
+
+.about .social a:hover {
+    background: #FFA500; /* Orange */
+}
+
+.about .social a:hover i {
+    color: #ffffff;
+}
+
+
+.img-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adds space around the image */
+    background-color: #f3f3f3; /* Light background color for contrast */
+    border-radius: 8px; /* Optional: rounds the corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.img-item img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: 50; /* Maintains aspect ratio */
+    border-radius: 4px; /* Optional: rounds the image corners */
+}
+
+.video_container {
+    text-align: center;
+}
 
 
 /**********************************/
