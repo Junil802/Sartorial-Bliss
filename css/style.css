@@ -2205,14 +2205,14 @@ h2 {
     border: 1px solid #FFA500; 
     height: 100%;
     padding: 30px;
-    background: black
+    background: peachpuff
  
 }
 
 .about .about-info h2 {
     margin-bottom: 15px;
     color: yellow;
-    border: 1px solid #FFA500; 
+    
    
 }
 .about .about-info h2 span {
@@ -2232,7 +2232,7 @@ h2 {
 }
 .about .about-info p {
     margin-bottom: 15px;
-    color: white;
+   
     
    
 }
